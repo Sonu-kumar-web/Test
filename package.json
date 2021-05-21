@@ -9,12 +9,7 @@
   },
   "author": "Sonu",
   "license": "ISC",
-<<<<<<< HEAD
-  "devDependencies": {
-    "ws": "3.3.2"
-=======
   "dependencies": {
     "express": "^4.17.1"
->>>>>>> b1db52450fd459b95b9a79c9e29eac3f9c8ba5a5
   }
 }
