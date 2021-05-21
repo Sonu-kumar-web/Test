@@ -6,6 +6,13 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
+app.get("/user", (req, res) => {
+  res.send({
+    name: "Sonu Kumar",
+    company: "ParkingRhino",
+  });
+});
+
 app.listen(port, (err) => {
   if (err) {
     console.log("Error on running server", err);
